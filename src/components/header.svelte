@@ -21,7 +21,7 @@
         </SignOut>
       {:else}
         <span class="notSignedInText">You are not signed in</span>
-        <SignIn provider="azure-ad">
+        <SignIn>
           <div slot="submitButton" class="buttonPrimary">Sign in</div>
         </SignIn>
       {/if}
